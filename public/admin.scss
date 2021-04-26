@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    padding: 0em;
+    margin: 0em;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    background-color: rgb(230, 230, 230);
+    font-weight: 700;
+}
+
+.list-product{
+    width: 75%;
+    margin: 3em;
+    background-color: white;
+    padding: 3em;
+    .top-section{
+        display: flex;
+        margin-bottom: 2em;
+        input{
+            margin-right: 2em;
+        }
+       
+    }
+
+    .description{
+        display: flex;
+    }
+    .product-content{
+        display: flex;
+        width: 30%;
+    }
+
+    input[type=submit]{
+        margin: 0.3em;
+        padding: 0.5em;
+        border-radius: 5em;
+        border: none;
+        background-color: #00c3ff;
+        font-weight: 700;
+    }
+}

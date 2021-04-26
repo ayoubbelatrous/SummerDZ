@@ -1,0 +1,60 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+body {
+  font-family: 'Noto Sans';
+}
+
+.container {
+  width: 474px;
+  margin: 0 auto;
+  margin-top: 5em;
+  padding-bottom: 10em;
+  padding-top: 3em;
+  border: 5px solid #00c3ff;
+  border-radius: 1em;
+  text-align: center;
+}
+
+.container label {
+  display: block;
+  text-align: center;
+  font-size: 20px;
+}
+
+.container input {
+  width: 80%;
+  margin: 0 auto;
+  padding: 0.5em;
+  display: block;
+  border-radius: 1em;
+  border: 5px solid #00c3ff;
+  outline: 0;
+}
+
+.container .logo {
+  display: block;
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.container .logo a {
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 35px;
+  color: black;
+}
+
+.container .logo a span {
+  color: #00c3ff;
+}
+
+.container .submit-button {
+  font-size: 20px;
+  margin-top: 2em;
+  background-color: #00c3ff;
+  margin-bottom: 2em;
+}
+
+.container .submit-button:hover {
+  background-color: transparent;
+}
+/*# sourceMappingURL=signup.css.map */

@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap');
+body{
+    padding: 0em;
+    margin: 0em;
+    font-family: 'Noto Sans';
+    font-weight: 400;
+    background-color: rgb(238, 238, 238);
+}
+
+
+.container{
+    background-color: black;
+    .navigation{
+        padding: 0.5em;
+        margin: 0;
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+
+
+        .logo{
+            
+            margin-top: 0.2em;
+            margin-left: 0.5em;
+            a{
+                text-decoration: none;
+                font-weight: 700;
+                font-size: 25px;
+                color: white;
+
+                span{
+                    color: #00c3ff;
+                }
+            }
+        }
+        
+        .signin-container{
+
+            display: flex;
+            margin-top: 0.5em;
+
+            
+
+            .signin{
+                margin-right: 0.5em;
+
+                a{
+                    text-decoration: none;
+                    color: #00c3ff;
+                }
+            }
+
+            .signup{
+                margin-right: 0.5em;
+                
+                a{
+                    text-decoration: none;
+                    background-color: #00c3ff;
+                    border: 3px solid #00c3ff;
+                    padding: 0.1em 0.3em;
+                    
+
+                    border-radius: 5em;
+                    color: black;
+                    &:hover{
+
+                        color: #00c3ff;
+                        background-color: transparent;
+                        
+
+                    }
+                }
+            }
+        }
+
+
+
+        .account-img{
+            
+                img{
+                    
+                    margin-top: 0.4em;
+                    border-radius: 50em;
+                    width: 35px;
+                    height: auto;
+                }
+            
+            
+
+        }
+
+    }
+}
+
+
+
+.search {
+    width: 50%;
+    position: relative;
+    display: flex;
+   
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: none;
+    padding: 5px;
+    height: 20px;
+    outline: none;
+    color: #9DBFAF;
+    font-family: 'Noto Sans';
+    font-weight: 700;
+
+    border-radius: 5em;
+
+  }
+  
+  .searchTerm:focus{
+    color: black;
+  }
+  
+  .searchButton {
+    width: 35px;
+    height: 31px;
+    border: none;
+    border-radius: 5em;
+    background: #00c3ff;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+
+.product-hero{
+
+    padding: 5em;
+    
+    display: flex;
+    justify-content: space-around;
+    border-radius: 1em;
+
+    a{
+        text-decoration: none;
+    }
+    .product-card{
+        
+        user-select: none;
+        background-color: white;
+
+        width: 250px;
+        text-align: center;
+        margin: 0.5em;
+        border: 2px solid rgb(255, 255, 255);
+        cursor: pointer;
+        border-radius: 0.5em;
+            img{
+                width: 170px;
+                height: 170px;
+                margin: 1em;
+            }
+        .description{
+            .title{
+                color: rgb(32, 32, 32);
+            }
+            .price{
+                color: rgb(58, 57, 57);
+                font-size: 20px;
+            }
+
+            
+        }
+
+        transition: all .2s ease-in-out;
+
+        &:hover{
+            transform: scale(1.1);
+            border: 2px solid #00c3ff;
+        }
+        
+    }
+}
+
+.hero{
+    background-color: #00c3ff;
+    padding: 1em;
+    text-align: center;
+    user-select: none;
+}
+
