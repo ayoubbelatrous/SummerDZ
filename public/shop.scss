@@ -105,13 +105,16 @@ body{
     width: 100%;
     border: none;
     padding: 5px;
-    height: 20px;
+    height: 21px;
     outline: none;
     color: #9DBFAF;
     font-family: 'Noto Sans';
     font-weight: 700;
 
-    border-radius: 5em;
+    border-top-right-radius: 0;
+    border-top-left-radius: 5em;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 5em;
 
   }
   
@@ -123,7 +126,14 @@ body{
     width: 35px;
     height: 31px;
     border: none;
-    border-radius: 5em;
+    padding: 5px;
+
+    border-top-right-radius: 5em;
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 5em;
+    border-bottom-left-radius: 0;
+
+
     background: #00c3ff;
     text-align: center;
     color: #fff;

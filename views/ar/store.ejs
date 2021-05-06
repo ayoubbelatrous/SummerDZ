@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Summer Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="../shop.css">
     
 </head>
@@ -12,6 +13,19 @@
         @import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
         body{font-family: 'Almarai';font-weight: 700;direction: rtl;}
         .container .navigation .logo{font-weight: 900; margin: 0;}
+        .searchTerm{
+          border-top-right-radius: 5em;
+          border-top-left-radius: 0;
+          border-bottom-right-radius: 5em;
+          border-bottom-left-radius: 0;
+        }
+        .searchButton{
+            border-top-right-radius: 0;
+            border-top-left-radius: 5em;
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 5em;
+        }
+        
     </style>
 
     <div class="container">
@@ -26,7 +40,7 @@
         
             <div class="search">
                 <input  type="text" name="searchproduct" class="searchTerm" placeholder="مرحبا">
-                <button id="searchBtn" type="submit" class="searchButton"></button>
+                <button id="searchBtn" type="submit" class="searchButton"><i class="fa fa-search"></i></button>
              </div>
         
         
