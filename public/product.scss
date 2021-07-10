@@ -1,0 +1,23 @@
+
+.product{
+    display: flex;
+    
+    .preview{
+        img{
+            margin-top: 5em;
+            margin-left: 5em;
+            width: 20em;
+            height: auto;
+        }
+    }
+    .desc{
+        font-size: 25px;
+        
+        margin-left: 20em;
+
+        div{
+            margin-top: 5em;
+        }
+    }
+    
+}

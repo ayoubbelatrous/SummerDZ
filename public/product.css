@@ -1,0 +1,22 @@
+.product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.product .preview img {
+  margin-top: 5em;
+  margin-left: 5em;
+  width: 20em;
+  height: auto;
+}
+
+.product .desc {
+  font-size: 25px;
+  margin-left: 20em;
+}
+
+.product .desc div {
+  margin-top: 5em;
+}
+/*# sourceMappingURL=product.css.map */
