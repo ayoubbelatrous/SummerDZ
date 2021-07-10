@@ -15,7 +15,7 @@ const session = require('express-session');
 const port = 8080;
 
 //connection string to monogoDB
-const dbURI = 'mongodb+srv://ayoub:ayoubas12345@summerc.oknpj.mongodb.net/summerdb?retryWrites=true&w=majority';
+const dbURI = here;
 
 //connect to database
 //comment in case you want to start server without database
